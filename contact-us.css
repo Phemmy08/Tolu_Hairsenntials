@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fugaz+One&family=Gugi&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Lilita+One&family=Merienda:wght@300..900&family=Playwrite+DE+Grund:wght@100..400&family=Rammetto+One&family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fugaz+One&family=Gugi&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Lilita+One&family=Merienda:wght@300..900&family=Playwrite+DE+Grund:wght@100..400&family=Uncial+Antiqua&display=swap');
+
+
+h1 {
+    font-family: "Rammetto One", sans-serif;
+}
+
+body {
+    font-family:  "Itim", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    color: wheat;
+}
+
+header {
+    background-image: linear-gradient(to right, green, black, white);
+    color: white;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color:#333;
+    color: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: wheat;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: wheat;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    flex: 1 1 45%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: wheat;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-image: linear-gradient(to left, #050A44, burlywood);
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-image: linear-gradient(to right, #050A44, burlywood);
+}
+
+.contact-info {
+    flex: 1 1 45%;
+    max-width: 400px;
+    text-align: left;
+    font-size: 1rem;
+    color: wheat;
+}
+
+.contact-info h3 {
+    color: wheat;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info i {
+    color: wheat;
+    font-size: 1.2rem;
+}
+
+.additional-contact {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.additional-contact a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.additional-contact a:hover {
+    color: #0a21c0;
+    transition: scale (1.2);
+}
+
+.additional-contact i {
+    font-size: 3em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
