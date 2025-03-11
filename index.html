@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toluexclusive Haircare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3d0848d9d2.js" crossorigin="anonymous"></script></script> <!-- Replace with your FontAwesome kit -->
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo-removebg-preview.png" alt="Toluexclusive Haircare"> 
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Looking for something?">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Login</a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">1</span>
+                <span class="cart-price">₦8,550.00</span>
+            </a>
+        </nav>
+    </header>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+
+    <main>
+    <section class="hero">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('image1.jpg');"></div>
+            <div class="slide" style="background-image: url('image2.jpg');"></div>
+            <div class="slide" style="background-image: url('image3.jpg');"></div>
+        </div>
+        <div class="hero-content">
+            <p>Welcome to</p>
+            <h1>TOLUEXCLUSIVE HAIRSSENTIALS </h1>
+            <p> Toluexclusive Hairssentials is a natural haircare brand that utilizes the power of nature to create quality, safe and effective products that help to improve different hair challenges of men, women and kids. <p> We are committed to giving you an amazing hair experience</p></p>
+            <a href="#" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+     <!-- Product Categories -->
+<!--      <section id="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-list">
+            <div class="category">Shampoos</div>
+            <div class="category">Conditioners</div>
+            <div class="category">Hair Oils</div>
+            <div class="category">Styling Products</div>
+        </div>
+    </section> -->
+
+    <!-- Best Sellers -->
+   <!--  <section id="best-sellers">
+        <h2>Best Selling Products</h2>
+        <div class="product-list">
+            <div class="product">Product 1</div>
+            <div class="product">Product 2</div>
+            <div class="product">Product 3</div>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+   <!--  <section id="about">
+        <h2>About Toluexclusive Haircare</h2>
+        <p>We provide top-quality, natural haircare solutions to help you achieve healthy, beautiful hair.</p>
+    </section> -->
+
+
+    <section class="categories">
+        <h2>BROWSE OUR CATEGORIES</h2>
+        <div class="category-container">
+            <a href="adult-products.html" class="category-item">
+                <img src="cat1.jpg" alt="Adult Product">
+                <div class="category-text">
+                    <h3>QUEEN HAIRSSENTIALS</h3>
+                    <p>13 PRODUCTS</p>
+                </div>
+            </a>
+    
+            <a href="gift-boxes.html" class="category-item">
+                <img src="cat2.jpg" alt="Gift Boxes">
+                <div class="category-text">
+                    <h3>WASHDAY HAIRSSENTIALS</h3>
+                    <p>3 PRODUCTS</p>
+                </div>
+            </a>
+    
+            <a href="hair-kit.html" class="category-item">
+                <img src="cat3.jpg" alt="Hair Kit">
+                <div class="category-text">
+                    <h3>4 STEP GROWTH KIT</h3>
+                    <p>14 PRODUCTS</p>
+                </div>
+            </a>
+    
+            <a href="hair-tools.html" class="category-item">
+                <img src="cat4.jpg" alt="Hair Tools and Accessories">
+                <div class="category-text">
+                    <h3>SCALP CARE KITS</h3>
+                    <p>17 PRODUCTS</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="best-selling">
+        <h2>BEST SELLING PRODUCTS</h2>
+        <div class="product-container">
+            
+            <!-- Product 1 -->
+            <div class="product">
+                <div class="image-container">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="BSP-1.jpg" alt="Edges Regrow Creme">
+                </div>
+                <p class="category">AYURVEDIC HAIR GROWTH BUTTER</p>
+                <h3>Healthy Hair Growth </h3>
+                <h3>softens Hair</h3>
+                <div class="rating">★★★★★</div>
+                <p class="price"><!-- <span class="old-price">₦19,800.00</span> --> ₦6,500.00</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+    
+            <!-- Product 2 -->
+            <div class="product">
+                <div class="image-container">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="BSP-2.jpg" alt="INTENSIVE HAIR GROWTH OIL">
+                </div>
+                <p class="category">INTENSIVE HAIR GROWTH OIL</p>
+                <h3>Promotes Hair Growth </h3>
+                <h3>Edges Regrowth</h3>
+                <h3>Receded Hairline </h3>
+                <h3>Activate thicker strands</h3>
+                <div class="rating">★★★★★</div>
+                <p class="price"><!-- <span class="old-price">₦11,700.00</span> --> ₦6,000.00</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+    
+            <!-- Product 3 -->
+            <div class="product">
+                <div class="image-container">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="BSP-3.jpg" alt="MOISTURIZING LEAVE-IN CONDITIONER">
+                </div>
+                <p class="category">MOISTURIZING LEAVE-IN CONDITIONER</p>
+                <h3>Intensive and Long Lasting Moisture</h3>
+                <h3> Softens Hair </h3>
+                <h3> Amazing Hair Shines</h3>
+                <div class="rating">★★★★★</div>
+                <p class="price"><!-- <span class="old-price">₦11,250.00</span> --> ₦3,500.00</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+    
+            <!-- Product 4 -->
+            <div class="product">
+                <div class="image-container">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="BSP-4.jpg" alt="BLACK SOAP SHAMPOO">
+                </div>
+                <p class="category">BLACK SOAP SHAMPOO </p>
+                <h3> Deep cleansing </h3>
+                <h3> Maintain Scalp and Hair Healthsing </h3>
+                <div class="rating">★★★★★</div>
+                <p class="price"><!-- <span class="old-price">₦9,000.00 --></span> ₦4,000.00</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+    
+        </div>
+    </section>
+    
+    <section class="review-section">
+        <h2>REVIEWS</h2>
+        <div class="review-slider">
+            <button class="prev">&#10094;</button>
+            <div class="review-container">
+                <div class="reviews">
+                    <div class="review">
+                        <img src="rev1.jpg" alt="Review 1">
+                    </div>
+                    <div class="review">
+                        <img src="rev2.jpg" alt="Review 2">
+                    </div>
+                    <div class="review">
+                        <img src="rev3.jpg" alt="Review 3">
+                    </div>
+                    <div class="review">
+                        <img src="rev4.jpg" alt="Review 4">
+                    </div>
+                    <div class="review">
+                        <img src="rev5.jpg" alt="Review 5">
+                    </div>
+                    <div class="review">
+                        <img src="rev6.jpg" alt="Review 6">
+                    </div>
+                    <div class="review">
+                        <img src="rev7.jpg" alt="Review 7">
+                    </div>
+                    <div class="review">
+                        <img src="rev8.jpg" alt="Review 8">
+                    </div>
+                    <div class="review">
+                        <img src="rev9.jpg" alt="Review 8">
+                    </div>
+                    <div class="review">
+                        <img src="rev10.jpg" alt="Review 8">
+                    </div>
+                </div>
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+    </section>
+    
+    <script>
+        const reviews = document.querySelector('.reviews');
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+
+let index = 0;
+const reviewCount = document.querySelectorAll('.review').length;
+const reviewsPerSlide = 4;
+
+function updateSlider() {
+    const translateX = -index * (100 / reviewsPerSlide) + '%';
+    reviews.style.transform = `translateX(${translateX})`;
+}
+
+nextButton.addEventListener('click', () => {
+    if (index < reviewCount / reviewsPerSlide - 1) {
+        index++;
+    } else {
+        index = 0;
+    }
+    updateSlider();
+});
+
+prevButton.addEventListener('click', () => {
+    if (index > 0) {
+        index--;
+    } else {
+        index = reviewCount / reviewsPerSlide - 1;
+    }
+    updateSlider();
+});
+
+// Auto-slide
+setInterval(() => {
+    if (index < reviewCount / reviewsPerSlide - 1) {
+        index++;
+    } else {
+        index = 0;
+    }
+    updateSlider();
+}, 3000);
+    </script>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Toluexclusive Haircare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</main>
+</body>
+</html>
