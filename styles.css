@@ -191,7 +191,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 5rem;
+    font-size: 4.7rem;
     font-weight: bold;
     font-family: "Big Shoulders Inline", sans-serif;
     color: green;
@@ -204,6 +204,18 @@ body {
     /* font-size: 1.2rem; */
     margin: 10px 0;
 }
+
+
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 3rem;
+    }
+
+}
+
+
+
 
 .cta-btn {
     display: inline-block;
@@ -430,6 +442,7 @@ body {
 
 h2 {
     font-size: 24px;
+    text-align: center;
     margin-bottom: 10px;
     border-bottom: 2px solid #6da34d;
     display: inline-block;
@@ -474,4 +487,8 @@ h2 {
 
 button:hover {
     background-color: #558c3e;
+}
+
+footer {
+    text-align: center;
 }
