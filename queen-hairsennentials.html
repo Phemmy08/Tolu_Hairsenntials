@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="queen-hairsenntials.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo-removebg-preview.png" alt="Toluexclusive Haircare"> 
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Looking for something?">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="#">Login</a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">1</span>
+                <span class="cart-price">₦8,550.00</span>
+            </a>
+        </nav>
+    </header>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>PRODUCT CATEGORIES</h2>
+            <ul>
+                <li><strong>ADULT PRODUCT</strong></li>
+                <li>Gift Boxes</li>
+                <li>Hair Kit</li>
+                <li>Hair Tools and Accessories</li>
+                <li>Kiddies Product</li>
+                <li>Men Product</li>
+            </ul>
+
+            <h2>FILTER BY PRICE</h2>
+            <input type="range" min="5000" max="22000" value="10000" class="price-range">
+            <p>Price: <span>₦5,500 - ₦22,000</span></p>
+            <button class="filter-btn">FILTER</button>
+        </aside>
+
+        <!-- Product Grid -->
+        <section class="products">
+            <div class="product">
+                <img src="QE1.jpg" alt="Product 1">
+                <h3>Chebe powder and karka oil</h3>
+                <p class="price">₦8,000.00</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="product">
+                <img src="QE2.jpg" alt="Product 2">
+                <h3>Ayurvedic Hair Growth ButteR </h3>
+                <p class="price">₦6,500.00</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+
+            <div class="product">
+                <img src="QE3.jpg" alt="Product 3">
+                <h3>Deep Conditioning Mask </h3>
+                <p class="price">₦4,500.00</p>
+                <button class="add-to-cart">ADD TO CART</button>
+            </div>
+
+            <div class="product">
+                <img src="QE4.jpg" alt="Product 4">
+                <h3>Intensive Hair Growth oil </h3>
+                <p class="price">₦6,000.00</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+
+            <div class="product">
+                <img src="QE5.jpg" alt="Product 4">
+                <h3>Black Soap Shampoo</h3>
+                <p class="price">₦4,500</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+
+            <div class="product">
+                <img src="QE5 (2).jpg" alt="Product 4">
+                <h3>Leave in conditioner </h3>
+                <p class="price">₦4,500</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+
+            <div class="product">
+                <img src="QE7.jpg" alt="Product 4">
+                <h3>Scalp care mist </h3>
+                <p class="price">₦5,500</p>
+                <button class="select-options">SELECT OPTIONS</button>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
